@@ -6,6 +6,10 @@
 
 function describeValue(value) {
   // your code
+  if (value === null) return "null";
+  if (Number.isNaN(value)) return "NaN"
+  if (Array.isArray(value)) return "Array"
+  return typeof value;
 }
 
 // Expected output:

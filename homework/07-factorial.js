@@ -3,10 +3,17 @@
 //
 // - factorial(4) = 1 * 2 * 3 * 4 = 24.
 // - factorial(0) is 1.
+  console.log("____________07______________")
 
 function factorial(n) {
   // your code
+ let total = 1;
+  for (let i=1;i<=n;i++){
+   total = total * i
+  }
+return total;
 }
+
 
 // Expected output:
 console.log(factorial(0));   // 1

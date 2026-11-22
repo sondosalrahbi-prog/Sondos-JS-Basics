@@ -6,6 +6,10 @@
 
 function calculateTotal(price, quantity, discountPercent) {
   // your code
+  const discount = price * (discountPercent / 100);
+  return(price-discount)*quantity
+
+
 }
 
 // Expected output:

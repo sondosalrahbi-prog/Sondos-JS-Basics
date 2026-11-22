@@ -3,9 +3,16 @@
 //
 // - power(2, 3) = 2 * 2 * 2 = 8.
 // - Any number to the power of 0 is 1.
+  console.log("____________10______________")
 
 function power(base, exponent) {
   // your code
+  let total = 1
+  for (let i=1 ; i <= exponent ; i++){
+    total = total * base
+  }
+  return total
+  
 }
 
 // Expected output:
