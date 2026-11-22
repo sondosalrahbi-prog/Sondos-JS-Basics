@@ -5,7 +5,6 @@
 // - sumEvenNumbers(6) = 2 + 4 + 6 = 12.
 console.log("_______________06________")
 function sumEvenNumbers(n) {
-
   let total = 0
   // your code
 
